@@ -1,10 +1,10 @@
 body {background-color: #FFFFCC; color: #000033}
-p {font-family: Arial; font-size: 14px}
-strong {font-size: 22px; font-weight: 600}
-h2 {margin-top:8px; margin-bottom:4px;
+p {font-family: Arial; font-size: 24px}
+strong {font-size: 32px; font-weight: 600}
+h2 {margin-top:10px; margin-bottom:6px;
        font-weight: 900; letter-spacing:2px; font-size: 20px;
        font-family:"Verdana";       color:#003399; }
 h3 {color: #0000FF}
-em {font size: 16px; font-style: italic; text-transform: uppercase;
+em {font size: 26px; font-style: italic; text-transform: uppercase;
 color: #000033; background-color: #FFFFCC}
 
