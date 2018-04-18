@@ -7,4 +7,17 @@ h2 {margin-top:10px; margin-bottom:6px;
 h3 {color: #0000FF}
 em {font size: 20px; font-style: italic; text-transform: uppercase;
 color: #000033; background-color: #FFFFCC}
-
+ol{
+    list-style-type: none;
+    counter-reset: mycounter;
+    padding-left: 0;
+  }
+  li:before{
+    content: "AMENDMENT " counter(mycounter, upper-roman);
+    counter-increment:mycounter;
+    margin-left: 2em;
+    font-size: 2em;
+    font-family: Quattrocento;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
