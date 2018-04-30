@@ -1,4 +1,4 @@
-body {background-color: rgb(32, 95, 42); color: #e6f0ed}
+body {background-color: rgb(32, 95, 42); color: #e6f0ed;  background-image:url(kid.jpg);}
 p {font-family: Arial; font-size: 14px}
 strong {font-size: 22px; font-weight: 600}
 h2 {margin-top:8px; margin-bottom:4px;
