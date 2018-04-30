@@ -1,0 +1,11 @@
+body {background-color: rgb(32, 95, 42); color: #e6f0ed}
+p {font-family: Arial; font-size: 14px}
+strong {font-size: 22px; font-weight: 600}
+h2 {margin-top:8px; margin-bottom:4px;
+       font-weight: 900; letter-spacing:2px; font-size: 20px;
+       font-family:"Verdana";       columns: #0e2bd4; }
+h3 {color: rgb(21, 17, 224) }
+em {font size:16px; font-style: italic; text-transform: uppercase;
+color:#000033; background-color:#FFFFCC}
+var{color: blue; font-style: italic}
+sup{color: red; font-style: Arial}
