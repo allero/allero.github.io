@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 body {background-color: rgb(21, 50, 216); color: #e6f0ed}
 p {font-family: Arial; font-size: 14px columns: #000000;}
+=======
+body {background-color: rgb(32, 95, 42); color: #e6f0ed;  background-image:url(kid.jpg); background-repeat;no-repeat; background-size:cover;}
+p {font-family: Arial; font-size: 14px}
+>>>>>>> 654ec298500d0b182f087d8eaa6d8e736c39b2a9
 strong {font-size: 22px; font-weight: 600}
 h2 {margin-top:8px; margin-bottom:4px;
        font-weight: 900; letter-spacing:2px; font-size: 20px;
