@@ -2,51 +2,71 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Home Page</title>
-  <style>
-    body {
-      color:#ffffff;
-      background-color: #ffdead;
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>A Brighter Start Childcare</title>
+</head>
+<style> 
+  .header {
+    overflow: hidden;
+    background-color: #0a2413;
+    padding: 20px 10px;
+    box-shadow: 5px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: #0313f1;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  .header img {
+  float: left;
+  
+  }
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    background-color: #12f325;
+    color: #0000ff;
+  }
+  
+  .header a.active {
+    background-color: #4d0026;
+    color: #ffdead;
+  }
+  
+  .header-right {
+    float: right;
+  }
     }
-    div {
-      width: 1000px;
-      height: 563px;
-      border: 5px outset #000099;
-      margin-top: 5px;
-      margin-left: auto;
-      margin-right: auto;
-      background-image:url(frontpage.jpg);
-      background-repeat: no-repeat;
+    .header-right {
+      float: none;
     }
-    h1, h2, h3, h4{
-      margin-left: 20px;
-      color: yellow;
-      font-family: verdana, arial, sans-serif;
-      text-shadow: 2px 2px #999999;
+    .row:after {
+      content: "A Brighter StartS";
+      display: table;
+  
     }
-    ul {
-      margin-top: 70px;
-      margin-left: 50px;
-      color: black
-    }
-    ul li {
-      font-size: 32px;
-      font-weight: bold;
-    }
-  </style>
- </head>
-  <body>
-   <div>
-    <h1>Welcome To My Second Homepage</h1>
-    <h3>by Rodney Allen</h3>
-    <h4>Version 2</h4>
-    <ul>
-      <li><a href="handbook.html">Handbook</a></li>
-      <li><a href="frontpage.html">Mission</a></li>
-      <li><a href="bio.html"> Bio</a></li>
-      <li><a href="factoring.html"> Factoring</a></li>
-    </ul>
-
-</div>
- </body>
- </html>
+    </style>
+<body>
+    div class="header">
+    <div class="header-right">
+      <a class="active" href="#default">Home</a>
+      <a href="../factoring.html">Factoring</a>
+    </div>
+    <h1 style="text-align:center">A Brighter Start Childcare</h1>
+    <h3 style="text-align:center">2765 Blue Rock Rd.<br> Cincinnati, Ohio 45239<br>Phone: 513-741-7565</h3>
+    <h3 style="text-align:center">Hours of Operation: <br>
+      Monday-Friday 6:15 am-6:00pm  <br>
+      Closed all hoildays
+      </h4>
+</body>
+</html>
