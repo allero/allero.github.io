@@ -1,4 +1,4 @@
-body {background-color: #FFFFCC; color: #000033 background-image:url(aflag.jpg); background-repeat;no-repeat; background-size:cover;}
+body {background-color: #FFFFCC; color: #000033; background-image:url(newflag.jpg); background-repeat;no-repeat; background-size:cover;}
 p {font-family: 'Pacifico', cursive; font-size: 20px}
 strong {font-size: 22px; font-weight: 600}
 h2 {margin-top:10px; margin-bottom:6px;
@@ -6,7 +6,7 @@ h2 {margin-top:10px; margin-bottom:6px;
        font-family:"Verdana";       color:#003399; }
 h3 {color: #0000FF}
 em {font size:20px; font-style: italic; text-transform: uppercase;
-color: #000033; background-color: #FFFFCC}
+color: #000033; background-color: #FFFFCC;}
 ol{
     list-style-type: none;
     counter-reset: mycounter;
