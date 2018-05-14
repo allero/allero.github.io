@@ -43,7 +43,7 @@
 					<li><img src="img/Daycare1.jpg" title="" /></li>
 					<li><img src="img/duckduck.jpg" title="" /></li>
 					<li><img src="img/IMG_1855.jpg" title="" /></li>
-					<li><img src="img/sucess.jpg" title="" /></li>
+					<li><img src="img/IMG_1951.jpeg" title="" /></li>
 				</ul>
 			</section>
 		</div>
@@ -82,7 +82,7 @@
 				</div>
 				<div class="welcome-text">
 					<h3>Mission Statement</h3>
-					<p>At A Brighter Start, we believe in building a strong foundation for each child to grow emotionally, socially, and cognitively at his/her own pace.</p>
+					<p style="text-align:center">At A Brighter Start, we believe in building a strong foundation for each child to grow emotionally, socially, and cognitively at his/her own pace.</p>
 				</div>
 			</div>
 			<div class="welcome-column">
@@ -91,7 +91,7 @@
 				</div>
 				<div class="welcome-text">
 					<h3>Teaching Environment</h3>
-					<p>In our fun and exciting environment we believe that children deserves to receive all the love, support and the respect it takes to establish a strong foundation for their future success.</p>
+					<p style="text-align:center">In our fun and exciting environment we believe that children deserves to receive all the love, support and the respect it takes to establish a strong foundation for their future success.</p>
 				</div>
 			</div>
 	</div>
@@ -141,7 +141,7 @@
 				</div>
 				<div class="welcome-text">
 					<h3>Birthdays</h3>
-					<p>Beginning 2015, each child’s birthday is his/her “special day.” Unfortunately, we request that children save the cake and ice cream for home.</p>
+					<p style="text-align:center">Beginning 2015, each child’s birthday is his/her “special day.” Unfortunately, we request that children save the cake and ice cream for home.</p>
 				</div>
 			</div>
 			<div class="welcome-column">
@@ -150,7 +150,7 @@
 				</div>
 				<div class="welcome-text">
 					<h3>Commitment</h3>
-					<p>As an individual who works with young children, we commit myself to furthering the values of early childhood education as they are reflected in the ideals and principles of NAEYC Code of Ethical Conduct. </p>
+					<p style="text-align:center">As an individual who works with young children, we commit myself to furthering the values of early childhood education as they are reflected in the ideals and principles of NAEYC Code of Ethical Conduct. </p>
 				</div>
 			</div>
 	<div class="clearfix"></div>
@@ -160,13 +160,13 @@
 			<img src="img/birthday.jpg" title=""/>
 		</section>
 		<section class="one-fourth">
-			<img src="img/birthday2.png" title=""/>
+			<img src="img/IMG_1947.jpeg" title=""/>
 		</section>
 		<section class="one-fourth">
-			<img src="img/teach.jpg" title=""/>
+			<img src="img/sucess.jpg" title=""/>
 		</section>
 		<section class="one-fourth">
-			<img src="img/learn2.jpg" title=""/>
+			<img src="img/IMG_1998.jpeg" title=""/>
 		</section>
 <!--- End Four Column Pictures & Text -->
 	</div>
@@ -206,6 +206,7 @@
 				<h3>Enrollment</h4>
 			<p>At A Brighter Start, we ask that you provide your child’s medical information before your child/children are enrolled.All new children will be cared for on a two-week (14 calendar day) trial period beginning on your child’s first actual day of care.</p>
 			<p>A medical statement, indicating that your child has been examined by a health care professional, must be signed and submitted the day of the child’s first day of care.</p>
+			<p>Each year, this enrollment information must be reviewed and the form must be signed again verifying that the information is accurate.</p>
 			</section>
 		</div>
 <!--- End Heading & Text -->
@@ -218,7 +219,7 @@
 		<section class="one-third">
 			<img src="img/arttools.jpg" title=""/>
 			<h3>Follow Us</h3>
-			<p>Follow and Like A Brighter Start Childcare on Social Meadia for news and updates. You can also schedule appointments.</p>
+			<p style="text-align:center">Follow and Like A Brighter Start Childcare on Social Meadia for news and updates. You can also schedule appointments.</p>
 		</section>
 		<section class="one-third">
 			<img src="img/kids.jpg" title=""/>
@@ -227,10 +228,6 @@
 				2765 Blue Rock Rd.<br>
 				Cincinnati, Ohio 45239<br>
 				Phone: 513-741-7565<br>
-				
-				Hours of Operation: <br>
-				Monday-Friday 6:15 am-6:00pm  
-				Closed all hoilday
 				</p>
 		</section>
 		<section class="one-third">
@@ -253,7 +250,7 @@
 		<ul class="social">
 			<li><a href="https://www.facebook.com/w3newbie" target="_blank"title=""><i class="fa fa-facebook" id="facebook"></i></a></li>
 			<li><a href="https://plus.google.com/+DrewRyan_w3/posts" target="_blank"title=""><i class="fa fa-google-plus" id="google-plus"></i></a></li>
-			<li><a href="https://twitter.com/DrewOnCue" target="_blank"title=""><i class="fa fa-twitter" id="twitter"></i></a></li>
+			<li><a href="https://twitter.com/abrighterstart" target="_blank"title=""><i class="fa fa-twitter" id="twitter"></i></a></li>
 			<li><a href="https://youtube.com/user/DrewOnCue" target="_blank"title=""><i class="fa fa-youtube" id="youtube"></i></a></li>
 		</ul>
 	<div class="clearfix"></div>
@@ -265,18 +262,18 @@
 	<div id="contact" class="section">
 		<div class="container content">
 	        <?php if(isset($emailSent) && $emailSent == true) { ?>
-                <p class="info">Your email was sent. Huzzah!</p>
+                <p class="info"></p>
             <?php } else { ?>		
 				</div>	
 				<div id="contact-form">
 					<?php if(isset($hasError) || isset($captchaError) ) { ?>
-                        <p class="alert">Error submitting the form</p>
+                        <p class="alert"></p>
                     <?php } ?>
 				
 					<form id="contact-us" action="index.php" method="post">
 						<div class="formblock">
 							<label class="screen-reader-text">Name</label>
-							<input type="text" name="contactName" id="contactName" value="<?php if(isset($_POST['contactName'])) echo $_POST['contactName'];?>" class="txt requiredField" placeholder="Name:" />
+							<input type="text" name="contactName" id="contactName" value="" class="txt requiredField" placeholder="Name:" />
 							<?php if($nameError != '') { ?>
 								<br /><span class="error"><?php echo $nameError;?></span> 
 							<?php } ?>
@@ -284,7 +281,7 @@
                         <div class="clearfix"></div>
 						<div class="formblock">
 							<label class="screen-reader-text">Email</label>
-							<input type="text" name="email" id="email" value="<?php if(isset($_POST['email']))  echo $_POST['email'];?>" class="txt requiredField email" placeholder="Email:" />
+							<input type="text" name="email" id="email" value="" class="txt requiredField email" placeholder="Email:" />
 							<?php if($emailError != '') { ?>
 								<br /><span class="error"><?php echo $emailError;?></span>
 							<?php } ?>
@@ -292,7 +289,7 @@
                         <div class="clearfix"></div>
 						<div class="formblock">
 							<label class="screen-reader-text">Message</label>
-							 <textarea name="comments" id="commentsText" class="txtarea requiredField" placeholder="Message:"><?php if(isset($_POST['comments'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['comments']); } else { echo $_POST['comments']; } } ?></textarea>
+							 <textarea name="comments" id="commentsText" class="txtarea requiredField" placeholder="Message:"></textarea>
 							<?php if($commentError != '') { ?>
 								<br /><span class="error"><?php echo $commentError;?></span> 
 							<?php } ?>
